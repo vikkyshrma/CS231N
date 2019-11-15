@@ -511,7 +511,7 @@ def conv_forward_naive(x, w, b, conv_param):
     #                             END OF YOUR CODE                            #
     ###########################################################################
     cache = (x, w, b, conv_param)
-    return out, cache
+    return cache
 
 
 def conv_backward_naive(dout, cache):
